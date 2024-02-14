@@ -1,0 +1,26 @@
+.about-us {
+	margin-bottom: 40px;
+}
+
+.about-us__container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+
+	@media (max-width: px($wc3)) {
+		display: block;
+	}
+}
+
+.about-us__txt {
+	p {
+		margin-bottom: 16px;
+	}
+}
+
+.about-us__img {
+	object-fit: cover;
+	width: 100%;
+	@include av('height', 400, 200, $maxWC, $minWC);
+	border-radius: 20px;
+}

@@ -1,5 +1,5 @@
 .hero {
-	@include av('margin-top', 70, 60, $maxWC, $minWC);
+	margin-top: 70px;
 }
 
 .hero__container {
