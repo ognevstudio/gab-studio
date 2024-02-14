@@ -1,0 +1,126 @@
+// ------------------------------ 
+
+// Системные файлы
+@use 'sass:math';
+
+// -- Системные стили
+@import './normalize';
+@import './av';
+@import './px';
+
+// ------------------------------
+
+// Цветовые стили
+// Txt
+$txt-white: #FFFFFF;
+$txt-gray: #DDDDDD;
+
+$txt-darkgreen: #39631C;
+$txt-lightgreen: #99DB69;
+
+
+// Main
+$main-white: #FFFFFF;
+$main-darkgreen: #5D9F2D;
+$main-green: #7BBD4B;
+$main-lightgreen: #99DB69;
+
+
+// ------------------------------
+
+// Разрешения экранов
+// WidthContainer
+$maxWC: 1070;
+
+$wc4: 991.98;
+$wc3: 767.98;
+$wc2: 479.98;
+$wc1: 360;
+
+$minWC: 360;
+
+// ------------------------------
+
+// Система отступов
+// -- Переменные 
+// s - space
+$s1: 4;
+$s2: 8;
+$s3: 10;
+$s4: 20;
+$s5: 30;
+$s6: 40;
+$s7: 60;
+$s8: 120;
+
+// -- Классы
+.margin-top {
+	@include av('margin-top', $s8, $s7, $maxWC, $minWC);
+}
+
+// ------------------------------
+
+// -- Файлы стилей
+@import './fonts';
+
+@import './header';
+
+@import './hero';
+@import './about-us';
+
+
+// ------------------------------
+
+// Системные классы
+.container {
+	max-width: px($maxWC);
+	margin: 0px auto;
+	padding: px(0) px($s3);
+}
+
+// ------------------------------
+
+// Общие стили
+body {
+	color: $txt-white;
+}
+
+.btn {
+	display: inline-block;
+	font-family: Montserrat;
+	@include av('font-size', 20, 17, $maxWC, $minWC);
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+
+	border-radius: 10px;
+
+	padding: 10px 20px;
+
+	color: $txt-white;
+
+	background-color: $main-green;
+
+	&:hover {
+		background-color: $main-lightgreen;
+	}
+
+	&:active {
+		background-color: $main-darkgreen;
+	}
+}
+
+.btn_big {
+	@include av('border-radius', 20, 14, $maxWC, $minWC);
+
+
+	border: 10px solid $main-white;
+
+	@include av('border-width', 10, 6, $maxWC, $minWC);
+
+	padding: 20px 40px;
+
+	@media (max-width: px($wc3)) {
+		padding: 10px 20px;
+	}
+}

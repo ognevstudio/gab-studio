@@ -1,0 +1,31 @@
+.header {
+	margin-top: 20px;
+}
+
+.header__container {
+	display: flex;
+	align-items: center;
+}
+
+.header__logo {
+	margin-top: 6px;
+
+	flex: 1 1 auto;
+	transition: 0.3s;
+
+	color: $txt-darkgreen;
+
+	&:hover {
+		color: $txt-lightgreen;
+	}
+
+	&:active {
+		color: $txt-darkgreen;
+	}
+
+	@media (max-width: px($wc2)) {
+		.mobile-hidden {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,40 @@
+.hero {
+	@include av('margin-top', 70, 40, $maxWC, $minWC);
+}
+
+.hero__container {
+	h1 {
+		margin-left: -4px;
+	}
+}
+
+
+
+.hero__img {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+
+	img {
+		width: 100%;
+		@include av('height', 360, 200, $maxWC, $minWC);
+		object-fit: cover;
+		border-radius: 20px;
+		@include av('margin-top', 40, 20, $maxWC, $minWC);
+	}
+
+	.btn {
+		position: relative;
+		@include av('top', -60, -20, $maxWC, $minWC);
+		@include av('right', 100, 60, $maxWC, $wc3);
+	}
+
+	@media (max-width: px($wc2)) {
+		align-items: center;
+
+		.btn {
+			position: relative;
+			right: 0;
+		}
+	}
+}

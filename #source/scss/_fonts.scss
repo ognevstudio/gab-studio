@@ -1,0 +1,72 @@
+// ------------------------------
+
+// Подключение шрифтов
+// -- Longbond
+@font-face {
+	font-family: 'Logbond';
+	src: url('../fonts/Logbond.woff2') format('woff2'),
+		url('../fonts/Logbond.woff2') format('woff');
+}
+
+// -- Montserrat
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+// ------------------------------
+
+
+// Текстовые стили
+.logo {
+	font-family: Logbond;
+	@include av('font-size', 36, 32, $maxWC, $minWC);
+	font-style: normal;
+	font-weight: 400;
+	line-height: 100%;
+
+	text-transform: uppercase;
+}
+
+.H1 {
+	font-family: Logbond;
+	@include av('font-size', 96, 44, $maxWC, $minWC);
+	font-style: normal;
+	font-weight: 400;
+	line-height: 110%;
+
+	text-transform: uppercase;
+
+	color: $txt-darkgreen;
+
+	span {
+		color: $txt-gray;
+	}
+}
+
+.H3 {
+	font-family: Montserrat;
+	@include av('font-size', 24, 17, $maxWC, $minWC);
+	font-style: normal;
+	font-weight: 400;
+	line-height: 130%;
+
+	color: $txt-darkgreen;
+}
+
+.txt {
+	font-family: Montserrat;
+	@include av('font-size', 20, 15, $maxWC, $minWC);
+	font-style: normal;
+	font-weight: 400;
+	line-height: 130%;
+
+	color: $txt-darkgreen;
+
+	a {
+		&:hover {
+			color: $txt-lightgreen;
+		}
+
+		&:active {
+			color: $txt-darkgreen;
+		}
+	}
+}
