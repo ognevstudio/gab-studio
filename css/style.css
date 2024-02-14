@@ -90,7 +90,7 @@ h6 {
 }
 @media (max-width: 1070px) {
   .margin-top {
-    margin-top: calc(50px + 70 * (100vw - 360px) / 710);
+    margin-top: calc(60px + 60 * (100vw - 360px) / 710);
   }
 }
 
@@ -192,7 +192,8 @@ h6 {
 }
 
 .hero {
-  margin-top: 60px;
+  margin-top: 80px;
+  padding-bottom: 20px;
 }
 
 .hero__container h1 {
