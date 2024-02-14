@@ -55,7 +55,7 @@ $s8: 120;
 
 // -- Классы
 .margin-top {
-	@include av('margin-top', $s8, $s6, $maxWC, $minWC);
+	@include av('margin-top', $s8, $s7, $maxWC, $minWC);
 }
 
 // ------------------------------
