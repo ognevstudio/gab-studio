@@ -1,10 +1,10 @@
 .hero {
-	@include av('margin-top', 70, 40, $maxWC, $minWC);
+	@include av('margin-top', 70, 60, $maxWC, $minWC);
 }
 
 .hero__container {
 	h1 {
-		margin-left: -4px;
+		@include av('margin-left', -6, -2, $maxWC, $minWC);
 	}
 }
 
