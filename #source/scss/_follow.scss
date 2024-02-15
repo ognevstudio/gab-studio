@@ -1,0 +1,68 @@
+.follow {}
+
+.follow__container {
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	@include av('gap', 80, 20, $maxWC, $wc3);
+
+	@media (max-width: px($wc3)) {
+		display: block;
+	}
+}
+
+.follow__body {
+	@media (max-width: px($wc3)) {
+		max-width: 70%;
+	}
+
+	@media (max-width: px($wc2)) {
+		max-width: 100%;
+	}
+}
+
+.H2 {}
+
+.follow__txt {
+	margin-top: 20px;
+	text-align: end;
+
+	p {
+		width: 100%;
+		text-align: start;
+		margin-bottom: 20px;
+	}
+
+	@media (max-width: px($wc3)) {
+		text-align: start;
+
+		p {
+			width: 100%;
+			text-align: start;
+			margin-bottom: 10px;
+		}
+
+	}
+}
+
+.follow__img {
+	display: block;
+	width: 100%;
+	height: auto;
+
+	@media (max-width: px($wc3)) {
+		margin-top: 20px;
+		max-width: 70%;
+		margin-left: auto;
+		/* Pushes the image to the right */
+		margin-right: 0;
+	}
+
+	@media (max-width: px($wc2)) {
+		max-width: 100%;
+	}
+}
+
+.txt {}
+
+.follow-btn {}

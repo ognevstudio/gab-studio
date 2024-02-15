@@ -22,14 +22,12 @@
 	justify-content: space-between;
 	@include av('margin-bottom', 20, 10, $maxWC, $minWC);
 
-
-}
-
-.address {
 	@media (max-width: px($wc2)) {
-		display: none !important;
+		display: block;
 	}
 }
+
+.address {}
 
 .contact {
 	a {

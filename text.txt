@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="GAB Barber Studio in Denver offers professional haircuts and grooming services in a modern barbershop setting. Experienced barbers, online booking available.">
-    <meta name="keywords" content="Denver barber, GAB Barber Studio, men's haircuts Denver, beard trimming Denver, professional barber, book barber online Denver, modern barbershop Denver, grooming services Denver, best barber in Denver, haircut and styling, luxury barber experience, Denver grooming studio, barber shop Denver, Denver men's salon, beard care, hair styling services, upscale barber Denver, barber consultation, Denver hair care, men's grooming Denver">
+    <meta name="keywords" content="Barber shop Denver, Denver barber studio, professional haircuts Denver, grooming services, online barber booking, men's haircuts, barber shop experience, Denver’s best haircuts, neighborhood barbershop, modern barbershop, Denver grooming">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" type="image/x-icon" href="./img/logo.ico">
     <title>GAB Barber Studio - Redefining the neighborhood barbershop in Denver</title>
     <!-- Schema.org markup for Google+ -->
     <meta itemprop="name" content="GAB Barber Studio - Denver">
@@ -57,41 +56,29 @@
             <img src="./img/about-us.png" alt="Expert barber at work in Denver’s GAB Barber Studio" class="about-us__img">
         </div>
        </section>
-       <section class="follow margin-top">
-        <div class="follow__container container">
-            <div class="follow__body">
-                <h2 class="H2">Join <span>Our stylish <br/>Family on</span> Instagram</h2>
-                <div class="follow__txt">
-                    <p class="txt">We won’t tell you how awesome our account is. <br/>Just hit follow, and you’ll see for yourself. <br/>No regrets, promise!</p>
-                    <a href="https://squareup.com/appointments/buyer/widget/45sv7gqjqhy1r2/L37C670THVC1Q?buttonTextColor=000000&color=7bbd4b&locale=en" class="btn follow-btn">Follow</a>
-                </div>
-            </div>
-            <img class="follow__img" src="./img/follow-img.png" alt="">
-        </div>
-       </section>
        <footer class="footer margin-top">
-        <div class="footer__container container">
-            <div class="footer__contacts">
-                <div class="contact">
-                    <a href="tel:+1 (720) 818-3519" class="txt">+1 (720) 818-3519</a>
-                    <a href="mailto:gabbarberstudio@gmail.com" class="txt">gabbarberstudio@gmail.com</a>
+            <div class="footer__container container">
+                <div class="footer__contacts">
+                    <div class="contact">
+                        <a href="tel:+1 (720) 818-3519" class="txt">+1 (720) 818-3519</a>
+                        <a href="mailto:gabbarberstudio@gmail.com" class="txt">gabbarberstudio@gmail.com</a>
+                    </div>
+                    <div class="contact">
+                        <a href="https://www.google.com/maps/place/Parking+lot,+15210+E+6th+Ave+Unit+3,+Aurora,+CO+80011/@39.7247247,-104.8123021,17z/data=!3m1!4b1!4m6!3m5!1s0x876c631c938d1b4b:0x6d5fbeb2cdb93f05!8m2!3d39.7247247!4d-104.8123021!16s%2Fg%2F11gnswnk8w?entry=ttu" class="txt address">15210 E 6th ave, Suite 3<br/>Aurora, Colorado 80011</a>
+                    </div>
                 </div>
-                <div class="contact">
-                    <a href="https://www.google.com/maps/place/Parking+lot,+15210+E+6th+Ave+Unit+3,+Aurora,+CO+80011/@39.7247247,-104.8123021,17z/data=!3m1!4b1!4m6!3m5!1s0x876c631c938d1b4b:0x6d5fbeb2cdb93f05!8m2!3d39.7247247!4d-104.8123021!16s%2Fg%2F11gnswnk8w?entry=ttu" class="txt address">15210 E 6th ave, Suite 3<br/>Aurora, Colorado 80011</a>
+                <div id="map" class="footer__map google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d191.95264317836902!2d-104.860361!3d39.666764!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c87b2998b9de7%3A0x78673772c5d356a3!2sJG%20BARBER%20STUDIO!5e0!3m2!1sru!2sus!4v1700701334573!5m2!1sru!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="footer__copyright">
+                        <span class="txt">© 2023 GAB Barber Studio. </span>
+                        <span class="txt">All rights reserved.</span>
                 </div>
             </div>
-            <div id="map" class="footer__map google-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d191.95264317836902!2d-104.860361!3d39.666764!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c87b2998b9de7%3A0x78673772c5d356a3!2sJG%20BARBER%20STUDIO!5e0!3m2!1sru!2sus!4v1700701334573!5m2!1sru!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="footer__copyright">
-                    <span class="txt">© 2023 GAB Barber Studio. </span>
-                    <span class="txt">All rights reserved.</span>
-            </div>
-        </div>
-   </footer>
-</div>
+       </footer>
+	</div>
 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqd_Fo7slGbBGeqIYkEKtOmmO3Ucp3LiI&callback=initMap"></script>
-<script src="./js/main.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqd_Fo7slGbBGeqIYkEKtOmmO3Ucp3LiI&callback=initMap"></script>
+	<script src="./js/main.js"></script>
 </body>
 </html>

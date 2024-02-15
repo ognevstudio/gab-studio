@@ -41,6 +41,22 @@
 	}
 }
 
+.H2 {
+	font-family: Logbond;
+	@include av('font-size', 64, 36, $maxWC, $minWC);
+	font-style: normal;
+	font-weight: 400;
+	line-height: 110%;
+
+	text-transform: uppercase;
+
+	color: $txt-darkgreen;
+
+	span {
+		color: $txt-gray;
+	}
+}
+
 .H3 {
 	font-family: Montserrat;
 	@include av('font-size', 24, 17, $maxWC, $minWC);

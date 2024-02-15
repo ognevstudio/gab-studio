@@ -1,5 +1,5 @@
 .hero {
-	margin-top: 60px;
+	margin-top: 50px;
 	padding-bottom: 20px;
 }
 
@@ -22,7 +22,7 @@
 		@include av('height', 360, 200, $maxWC, $minWC);
 		object-fit: cover;
 		border-radius: 20px;
-		@include av('margin-top', 40, 20, $maxWC, $minWC);
+		@include av('margin-top', 30, 20, $maxWC, $minWC);
 	}
 
 	.btn {
